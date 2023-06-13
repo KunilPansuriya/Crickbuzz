@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="19.5dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="19.5dp"
+        app:cardCornerRadius="100dp"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/activity_full_img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_launcher_background" />
+
+    </androidx.cardview.widget.CardView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="0.4">
+        <TextView
+            android:id="@+id/activity_full_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:padding="10dp"
+            android:text="Name"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/activity_full_num"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Subject"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_full_born"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Born"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_place"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Birth Place"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_nc"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Nick Name"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_role"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Role"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_batting"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Batting Style"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <TextView
+            android:id="@+id/activity_boling"
+            android:layout_width="236dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="start|bottom"
+            android:padding="10dp"
+            android:text="Boling Style"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
